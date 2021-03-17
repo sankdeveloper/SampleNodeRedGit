@@ -18,8 +18,37 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
+        "x": 810,
         "y": 220,
         "wires": []
+    },
+    {
+        "id": "bc07a13a.1fa2d",
+        "type": "inject",
+        "z": "22882a37.d528b6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "139a14fc.88f36b"
+            ]
+        ]
     }
 ]
