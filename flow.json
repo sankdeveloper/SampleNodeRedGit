@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "id": "22882a37.d528b6",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "139a14fc.88f36b",
+        "type": "debug",
+        "z": "22882a37.d528b6",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 220,
+        "wires": []
+    }
+]
